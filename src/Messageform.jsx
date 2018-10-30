@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import firebase from './fire';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
+import Card from '@material-ui/core/Card';
+import blue from '@material-ui/core/colors/blue';
 
 class MessageForm extends Component {
 constructor(props) {
@@ -30,11 +32,13 @@ handleSubmit = () => {
 
 render() {
     return (
-        <div>
-            <form>
-            <TextField onChange={this.handleChange}/>   
-            <Button onClick={this.handleSubmit}>Submit</Button>   
-            </form>
+        <div className="messageformdiv">
+            <Card style = {{ backgroundColor: "#b7cff7" }}>
+                <form className="messageform">
+                    <TextField onChange={this.handleChange} inputProps={{ maxLength: 100 }} style = {{ width: 500 }} />   
+                    <Button type="submit" onClick={this.handleSubmit}>Submit</Button>   
+                </form>
+            </Card>
         </div>
 
     );

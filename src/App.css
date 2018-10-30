@@ -30,3 +30,16 @@
     transform: rotate(360deg);
   }
 }
+
+.messageformdiv {
+  width: 50%;
+  align-content: center;
+  margin-top: 10%;
+  margin-left: 25%;
+  box-shadow: 5px 5px lightgray;
+}
+
+.messageform {
+  height: 200px;
+  margin-top: 20%;
+}
