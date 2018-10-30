@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import firebase from './fire';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
-import * as contentful from 'contentful'
 
 class MessageForm extends Component {
 constructor(props) {
