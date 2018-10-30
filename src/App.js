@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MessageForm from './Messageform';
-import MediaCard from './MediaCard';
 import './App.css';
 
 class App extends Component {

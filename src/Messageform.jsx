@@ -36,7 +36,7 @@ render() {
             <Card style = {{ backgroundColor: "#b7cff7" }}>
                 <form className="messageform">
                     <TextField onChange={this.handleChange} inputProps={{ maxLength: 100 }} style = {{ width: 500 }} />   
-                    <Button type="submit" onClick={this.handleSubmit}>Submit</Button>   
+                    <Button onClick={this.handleSubmit}>Submit</Button>   
                 </form>
             </Card>
         </div>
