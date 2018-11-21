@@ -1,13 +1,13 @@
 {
   "main.css": "/MM-Frontend/static/css/main.d62d8cc9.chunk.css",
-  "main.js": "/MM-Frontend/static/js/main.035020d7.chunk.js",
-  "main.js.map": "/MM-Frontend/static/js/main.035020d7.chunk.js.map",
+  "main.js": "/MM-Frontend/static/js/main.162a3b07.chunk.js",
+  "main.js.map": "/MM-Frontend/static/js/main.162a3b07.chunk.js.map",
   "static/js/1.3472839d.chunk.js": "/MM-Frontend/static/js/1.3472839d.chunk.js",
   "static/js/1.3472839d.chunk.js.map": "/MM-Frontend/static/js/1.3472839d.chunk.js.map",
   "runtime~main.js": "/MM-Frontend/static/js/runtime~main.e3d32dfe.js",
   "runtime~main.js.map": "/MM-Frontend/static/js/runtime~main.e3d32dfe.js.map",
   "static/css/main.d62d8cc9.chunk.css.map": "/MM-Frontend/static/css/main.d62d8cc9.chunk.css.map",
   "index.html": "/MM-Frontend/index.html",
-  "precache-manifest.72c7561c4dc671ba9f48b9e58ef445cd.js": "/MM-Frontend/precache-manifest.72c7561c4dc671ba9f48b9e58ef445cd.js",
+  "precache-manifest.a0b983d8edddb5f6dd9c56850a7cbca4.js": "/MM-Frontend/precache-manifest.a0b983d8edddb5f6dd9c56850a7cbca4.js",
   "service-worker.js": "/MM-Frontend/service-worker.js"
 }
