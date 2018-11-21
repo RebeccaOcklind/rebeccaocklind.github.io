@@ -17,7 +17,8 @@ handleChange = (e) => {
 }
 
 handleSubmit = () => {
-    const msg = this.state.val;
+    if(this.state.val.trim() !== ""){
+        const msg = this.state.val.trim();
     firebase.database().ref('messages/').push({
         msg
     }).then((data)=>{
@@ -28,6 +29,7 @@ handleSubmit = () => {
         //error callback
         console.log('error ' , error)
     })
+    }
 }
 
 handleKeyPress = (target) => {
@@ -39,7 +41,7 @@ handleKeyPress = (target) => {
 render() {
     return (
         <div>
-            <h1>Gymnasiemässan</h1>
+            <h1>Skicka ett meddelande till spegeln</h1>
             <div className="messageformdiv">
                 <Card style = {{ backgroundColor: "#b7cff7" }}>
                     <div className="messageform">
