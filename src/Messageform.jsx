@@ -45,7 +45,7 @@ render() {
             <div className="messageformdiv">
                 <Card style = {{ backgroundColor: "#b7cff7" }}>
                     <div className="messageform">
-                        <TextField onChange={this.handleChange} onKeyPress={this.handleKeyPress} value={this.state.val} inputProps={{ maxLength: 100 }} style = {{ width: 400 }} />   
+                        <TextField onChange={this.handleChange} onKeyPress={this.handleKeyPress} value={this.state.val} inputProps={{ maxLength: 100 }} style = {{ width: '90%', marginLeft: '5%', marginRight: '5%' }} />   
                         <Button onClick={this.handleSubmit}>Send message</Button>   
                     </div>
                 </Card>
